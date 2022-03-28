@@ -1,19 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UC_1_MaxInteger
+namespace Day13GenericProblem
 {
     internal class Program
     {
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Greater between 3 integer program ");
-            Console.WriteLine("Enter 3 Integer Value");
-            int fst = int.Parse(Console.ReadLine());
-            int snd = int.Parse(Console.ReadLine());
-            int trd = int.Parse(Console.ReadLine());
-           
+            Console.WriteLine("Welcome to program ");
+            Console.WriteLine("Enter Length of Array");
+            int len = int.Parse(Console.ReadLine());
+            int[] arr = new int[len];
+            Console.WriteLine("Enter elements of array");
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+
+          
         }
     }
 }
