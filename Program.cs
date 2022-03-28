@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UC_1_MaxInteger
+namespace Day13GenericProblem
 {
     internal class Program
     {
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Greater between 3 integer program ");
-            Console.WriteLine("Enter 3 Integer Value");
-            int fst = int.Parse(Console.ReadLine());
-            int snd = int.Parse(Console.ReadLine());
-            int trd = int.Parse(Console.ReadLine());
-           
+            Console.WriteLine("Welcome to Greater between 3 Floats program ");
+            Console.WriteLine("Enter 3 Floats Value");
+            double fst = double.Parse(Console.ReadLine());
+            double snd = double.Parse(Console.ReadLine());
+            double trd = double.Parse(Console.ReadLine());
+            
         }
     }
 }
